@@ -1,0 +1,61 @@
+{
+  "features": [
+    "danceability",
+    "energy",
+    "loudness",
+    "tempo",
+    "instrumentalness"
+  ],
+  "rangos": {
+    "danceability": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.675,
+      "p5": 0.36179500000000003,
+      "p95": 0.9104
+    },
+    "energy": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.6334,
+      "p5": 0.349495,
+      "p95": 0.9164
+    },
+    "loudness": {
+      "min": -18.62,
+      "max": 0.0,
+      "median": -7.66,
+      "p5": -11.98,
+      "p95": -3.36
+    },
+    "tempo": {
+      "min": 60.0,
+      "max": 220.0,
+      "median": 118.57499999999999,
+      "p5": 87.9,
+      "p95": 152.3
+    },
+    "instrumentalness": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0257,
+      "p5": 0.0018,
+      "p95": 0.21340499999999957
+    }
+  },
+  "media_popularidad": 28.17695,
+  "rmse_test": 16.089382837709643,
+  "mae_test": 13.138011505426492,
+  "r2_test": -0.0019418218460764969,
+  "rmse_base": 16.075036507967877,
+  "mae_base": 13.12950024,
+  "n_train": 40000,
+  "perm_importance": {
+    "danceability": -0.0004590529265097102,
+    "energy": -0.0004892059452971183,
+    "loudness": -0.00043740402802869836,
+    "tempo": -3.547771343333691e-05,
+    "instrumentalness": 9.934605026164315e-05
+  },
+  "sklearn_version": "1.6.1"
+}
